@@ -35,7 +35,7 @@ As the size of the dataset was small, image augmentation techniques were used:
 
 The dataset finally gathered after augmentation was of 200 images - 100 images in each class.
 
-The code for entire data pre-processing can be found in [this](https://github.com/AmanGoyal99/COVID-19-Classifier/blob/main/IISC_Covid_Task_Data.ipynb) notebook. 
+The code for entire data pre-processing can be found in [this](https://github.com/mohsin651/CovidClassifier/blob/main/Covid_Task_Data.ipynb) notebook. 
 
 ## Model creation and training
 
@@ -44,12 +44,12 @@ The following 2 approaches were taken by me :
 - Without transfer learning
   - Created a model with 6 layers of CNN and Max Pooling 2D
   - Keras-Tensorflow frameworks were used
-  - Notebook link to this approach can be found [here](https://github.com/AmanGoyal99/COVID-19-Classifier/blob/main/IISC_covid_task_keras_tf.ipynb).
+  - Notebook link to this approach can be found [here](https://github.com/mohsin651/CovidClassifier/blob/main/Covid_Task_Keras_TF.ipynb).
 
 - With transfer learning
   - Used MobileNet model trained multiple times with freezed and un-freezed layers 
   - Pytorch-Fastai framework was utilized
-  - Notebook link to this approach can be found [here](https://github.com/AmanGoyal99/COVID-19-Classifier/blob/main/IISC_covid_task_Transfer_Learning.ipynb).
+  - Notebook link to this approach can be found [here](https://github.com/mohsin651/CovidClassifier/blob/main/Covid_Task_Transfer_Learning.ipynb).
 
 ## Inferencing model and evaluation
 
